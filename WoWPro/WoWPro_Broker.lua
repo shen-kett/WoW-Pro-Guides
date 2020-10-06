@@ -2933,6 +2933,7 @@ function WoWPro:CompleteAtEnd()
             last = last - 1
         end
     end
+    WoWPro:dbp("Uncompleted limit: %d", last)
     for i=1, WoWPro.stepcount do
         if WoWProCharDB.Guide[GID].skipped[i] then
             -- find the last skipped step
@@ -2948,10 +2949,11 @@ function WoWPro:CompleteAtEnd()
             last = last - 1
         end
     end
+    WoWPro:dbp("Skipped limit: %d", last)
     for i=1, WoWPro.stepcount do
         if not WoWPro.map[i] then
             -- find the unmapped step
-            while not WoWPro.map[i] and (last > i) do
+            while not WoWPro.map[last] and (last > i) do
                 last = last - 1
             end
             if last <= i then
@@ -2963,6 +2965,7 @@ function WoWPro:CompleteAtEnd()
             last = last - 1
         end
     end
+    WoWPro:dbp("Unmapped limit: %d", last)
     return last
 end
 
