@@ -172,41 +172,41 @@ C Balance|QID|30672|S|M|46.97,83.69|
 A Buried Hozen Treasure|QID|30675|M|PLAYER|N|From Confusing Treasure Map - looted off of an Unga.|
 A Balance Without Violence|QID|30674|M|PLAYER|N|From UI Alert.|
 C Balance Without Violence|QID|30674|M|46.71,84.80|N|There are piles of fish, the sparkly ones are the ones you can click on to throw back into the water.|
-; up to here
 T Balance Without Violence|QID|30674|M|PLAYER|N|To UI Alert.|
 C Buried Hozen Treasure|QID|30675|S|M|51.10,85.27|N|Click on the piles of sand to search for the treasure.|
 C Balance|QID|30672|M|50.85,84.15|
 C Balance Without Violence|US|QID|30674|M|42.68,82.74|N|There are piles of fish, the sparkly ones are the ones you can click on to throw back into the water.|
 T Balance Without Violence|QID|30674|M|42.22,82.87|N|To UI Alert.|
 C Buried Hozen Treasure|QID|30675|US|M|51.10,85.27|N|Click on the piles of sand to search for the treasure.|
-T Buried Hozen Treasure|QID|30675|M|51.10,85.27|N|To UI Alert.|
-R Marista|QID|30672|M|51.55,76.83|N|Keep jumpin'.|
-T Balance|QID|30672|M|51.55,76.83|N|To Jay Cloudfall.|
-R Explore|QID|99999|N|Explore the islands while you are out here and have the raft (its a one hour duration).|
-f Cradle of Chi-Ji|QID|30675|M|31.19,63.25|N|At Feather Keeper Li.|
-R Fallsong Village|M|29.66,39.0|QID|30168|N|You can take the raft up the river to avoid combat. (portage around the waterfall).|
-A Thieving Raiders|QID|30168|M|29.67,39.06|N|From Tired Shushen.|
-A Raid Leader Slovan|QID|30169|M|29.67,39.06|N|From Tired Shushen.|
-K Riverbank Flesh-Hunter|QID|30168|S|L|78958 5|M|29.55,45.17|Z|Valley of the Four Winds|N|If you still have the raft, take a shortcut across the water, unfortunantly, you lose the buff when you technically cross into Valley of the Four Winds.|
-K Raid Leader Slovan|T|Slovan|QID|30169|QO|1|M|31.87,29.01|Z|Valley of the Four Winds|; Slovan slain: 1/1
-K Riverbank Flesh-Hunter|QID|30168|US|L|78958 5|M|29.55,45.17|Z|Valley of the Four Winds|
-T Thieving Raiders|QID|30168|M|29.67,39.06|N|To Tired Shushen.|
-T Raid Leader Slovan|QID|30169|M|29.67,39.06|N|To Tired Shushen.|
-R Sentinel Basecamp|QID|30363|M|24.76,34.00|
-T Going on the Offensive|QID|30363|M|24.70,34.04|N|To Lyalia.|
-A No Sister Left Behind|QID|30354|PRE|30363^30465|M|24.70,34.04|N|From Lyalia.|
-A Sever Their Supply Line|QID|30356|PRE|30363^30465|M|24.70,34.04|N|From Lyalia.|
-f Sentinel Basecamp|QID|30356|M|25.14,33.46|N|At Maylen Moonfeather.|
-A Re-Reclaim|QID|30355|PRE|30363^30465|M|25.20,34.53|N|From Kang Bramblestaff.|
-C Re-Reclaim|QID|30355|S|NC|M|23.43,45.24|N|Pick up the sparkly artifacts from the ground.|
-C No Sister Left Behind|QID|30354|S|NC|M|23.49,45.07|N|Click on the sentinals to free them from the traps.|
-C Sever Their Supply Line|QID|30356|M|23.70,42.04|N|To maximimze efficiency, try to kill the ones that are beside trapped horde people or ground spawns you need to pick up.|
-C Re-Reclaim|QID|30355|US|NC|M|23.43,45.24|N|Pick up the sparkly artifacts from the ground.|
-C No Sister Left Behind|QID|30354|US|NC|M|23.49,45.07|N|Click on the sentinals to free them from the traps.|
-T Re-Reclaim|QID|30355|M|25.20,34.53|N|To Kang Bramblestaff.|
-T No Sister Left Behind|QID|30354|M|24.70,34.04|N|To Lyalia.|
-T Sever Their Supply Line|QID|30356|M|24.70,34.04|N|To Lyalia.|
-A The Mantid|QID|30361|PRE|30354&30355&30356|M|24.88,34.37|N|From Ambassador Han.|
+T Buried Hozen Treasure|QID|30675|M|PLAYER|N|To UI Alert.|
+R Marista|QID|30672|M|53.55,76.83|N|Jumping makes the raft faster.|
+T Balance|QID|30672|M|53.58,76.03|N|To Jay Cloudfall.|
+R Cradle of Chi-Ji|M|35.15,62.58|QID|30363|N|You can take the raft up the river to avoid combat.|
+f Cradle of Chi-Ji|QID|30363|M|31.63,61.30|N|At Feather Keeper Li.|
+R Fallsong Village|M|29.75,36.49|QID|30363|N|If you still have it you can take the raft up the river to avoid combat. (portage around the waterfall).|
+A Thieving Raiders|QID|30168|M|30.06,35.35|N|From Tired Shushen.|
+A Raid Leader Slovan|QID|30169|M|30.06,35.35|N|From Tired Shushen.|
+K Riverbank Flesh-Hunter|QID|30168|S|QO|1|M|33.36,26.03|N|If you still have the raft, take a shortcut across the water, unfortunantly, you lose the buff when you technically cross into Valley of the Four Winds.|
+K Raid Leader Slovan|T|Slovan|QID|30169|QO|1|M|32.38,24.57|; Slovan slain: 1/1|
+K Riverbank Flesh-Hunter|QID|30168|US|QO|1|M|34.32,24.55|
+T Thieving Raiders|QID|30168|M|30.06,35.35|N|To Tired Shushen.|
+T Raid Leader Slovan|QID|30169|M|30.06,35.35|N|To Tired Shushen.|
+R Sentinel Basecamp|QID|30363|M|27.55,33.09|
+T Going on the Offensive|QID|30363|M|24.71,29.94|N|To Lyalia.|
+A No Sister Left Behind|QID|30354|PRE|30363^30465|M|24.71,29.94|N|From Lyalia.|
+A Sever Their Supply Line|QID|30356|PRE|30363^30465|M|24.71,29.94|N|From Lyalia.|
+f Sentinel Basecamp|QID|30356|M|25.18,29.31|N|At Maylen Moonfeather.|
+A Re-Reclaim|QID|30355|PRE|30363^30465|M|25.25,30.49|N|From Kang Bramblestaff.|
+C Re-Reclaim|QID|30355|S|NC|M|24.78,35.65|N|Pick up the sparkly artifacts from the ground.|
+C No Sister Left Behind|QID|30354|S|NC|M|24.78,35.65|N|Click on the sentinals to free them from the traps.|
+C Sever Their Supply Line|QID|30356|M|24.78,35.65|N|To maximimze efficiency, try to kill the ones that are beside trapped Alliance people or ground spawns you need to pick up.|
+C Re-Reclaim|QID|30355|US|NC|M|24.78,35.65|N|Pick up the sparkly artifacts from the ground.|
+C No Sister Left Behind|QID|30354|US|NC|M|24.78,35.65|N|Click on the sentinals to free them from the traps.|
+T Re-Reclaim|QID|30355|M|25.25,30.49|N|To Kang Bramblestaff.|
+T No Sister Left Behind|QID|30354|M|24.71,29.94|N|To Lyalia.|
+T Sever Their Supply Line|QID|30356|M|24.71,29.94|N|To Lyalia.|
+A The Mantid|QID|30361|PRE|30354&30355&30356|M|24.90,30.33|N|From Ambassador Han.|
+; almost there
 C The Mantid|QID|30361|S|M|14.44,35.46|
 A The Stoneplow Convoy|QID|30357|PRE|30354&30355&30356|M|15.09,39.42|N|From Lorekeeper Vaeldrin.|
 C The Stoneplow Convoy|QID|30357|NC|U|79163|M|15.62,34.96|N|Use the poultices to heal the envoys.|
@@ -218,8 +218,8 @@ K Kill Groundbreaker Brojai|QID|30359|T|Groundbreaker Brojai|QO|1|M|23.58,48.85|
 T The Lord Reclaimer|QID|30359|M|24.70,33.98|N|To Lorekeeper Vaeldrin.|
 A The Waters of Youth|QID|30445|PRE|30359|M|24.70,33.98|N|From Lorekeeper Vaeldrin.|
 C The Waters of Youth|QID|30445|M|24.70,33.98|
-T The Waters of Youth|QID|30445|M|24.70,33.98|N|To Lyalia.|
-A Warn Stoneplow|QID|30360|PRE|29990&30117&30273&30445|M|24.74,34.04|N|From Lyalia.|
+T The Waters of Youth|QID|30445|M|24.71,29.94|N|To Lyalia.|
+A Warn Stoneplow|QID|30360|PRE|29990&30117&30273&30445|M|24.71,29.94|N|From Lyalia.|
 F Stoneplow|QID|30360|M|25.13,33.53|N|At Maylen Moonfeather.|
 T Warn Stoneplow|QID|30360|M|19.54,56.92|Z|Valley of the Four Winds|N|To Loon Mai.  Cinematic Follows.|
 A The Mantidote|QID|30623|PRE|30241^30360^30376|M|17.96,56.45|Z|Valley of the Four Winds|N|From Mei Barrelbottom.|
